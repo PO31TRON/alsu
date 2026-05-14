@@ -1,0 +1,11 @@
+aLSU/
+├── index.html
+├── menu.html
+├── contacts.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── data/
+│   └── menu.json
+└── img/

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан-бар Алсу | Сергиев Посад</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">ÀLSU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Меню</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="https://t.me/alsu_rest" class="btn btn-outline-accent btn-sm" target="_blank">Бронирование</a>
+                    <a href="tel:+74999999999" class="btn btn-outline-accent btn-sm">📞 +7 (499) 999-99-99</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero position-relative overflow-hidden" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('img/main.jpg'); background-size: cover; background-position: center; min-height: 90vh;">
+        <div class="container d-flex align-items-center text-center text-white" style="height: 100vh;">
+            <div class="w-100">
+                <h1 class="display-3 fw-semibold">ресторан-бар ÀLSU</h1>
+                <p class="lead mb-4">Вина, уют, современная кухня в сердце Сергиева Посада</p>
+                <a href="menu.html" class="btn btn-accent btn-lg me-2">Смотреть меню</a>
+                <a href="https://t.me/alsu_rest" class="btn btn-outline-accent btn-lg">Забронировать стол</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Фичи -->
+    <div class="container py-5">
+        <div class="row g-4 text-center">
+            <div class="col-md-4 fade-up">
+                <i class="bi bi-cup-straw fs-1" style="color: var(--accent);"></i>
+                <h3 class="mt-3" style="color: var(--accent);">Авторская винная карта</h3>
+                <p class="text-secondary">Более 50 позиций, редкие винтажи</p>
+            </div>
+            <div class="col-md-4 fade-up">
+                <i class="bi bi-egg-fried fs-1" style="color: var(--accent);"></i>
+                <h3 class="mt-3" style="color: var(--accent);">Raw bar & сезонные блюда</h3>
+                <p class="text-secondary">Тартары, севиче, свежие продукты</p>
+            </div>
+            <div class="col-md-4 fade-up">
+                <i class="bi bi-music-note-beamed fs-1" style="color: var(--accent);"></i>
+                <h3 class="mt-3" style="color: var(--accent);">Атмосфера</h3>
+                <p class="text-secondary">Живая музыка по пятницам и субботам</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Галерея -->
+    <div class="container py-4">
+        <h2 class="text-center mb-4">Атмосфера</h2>
+        <div class="row g-3">
+            <div class="col-md-3 col-sm-6 fade-up">
+                <img src="img/main.jpg" class="img-fluid gallery-img" alt="Интерьер">
+            </div>
+            <div class="col-md-3 col-sm-6 fade-up">
+                <img src="img/main.jpg" class="img-fluid gallery-img" alt="Бар">
+            </div>
+            <div class="col-md-3 col-sm-6 fade-up">
+                <img src="img/main.jpg" class="img-fluid gallery-img" alt="Блюда">
+            </div>
+            <div class="col-md-3 col-sm-6 fade-up">
+                <img src="img/main.jpg" class="img-fluid gallery-img" alt="Веранда">
+            </div>
+        </div>
+        <p class="text-center text-muted small mt-3">* временные изображения</p>
+    </div>
+
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">ÀLSU</div>
+                    <p class="text-secondary">ресторан-бар<br>Сергиев Посад</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-accent">Контакты</h5>
+                    <a href="tel:+74999999999" class="d-block text-secondary text-decoration-none">+7 (499) 999-99-99</a>
+                    <a href="https://t.me/alsu_rest" class="d-block text-secondary text-decoration-none">Telegram для брони</a>
+                    <p class="text-secondary mt-2">пр. Красной Армии, 158<br>гостиница «Старый город»</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-accent">Часы работы</h5>
+                    <p class="text-secondary">Пн–Чт: 12:00 – 23:00<br>Пт–Сб: 12:00 – 01:00<br>Вс: 12:00 – 22:00</p>
+                </div>
+            </div>
+            <div class="text-center text-secondary small mt-4">ÀLSU © 2025 | Все права защищены</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
